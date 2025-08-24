@@ -1,2 +1,5 @@
-<h2 class="text-2xl font-bold mt-5 text-black">gif-history works!</h2>
-<h3>{{query()}}</h3>
+<h3 class="text-2xl font-bold mt-4">Mostrando: {{ query() }}</h3>
+<hr>
+<section>
+  <gifs-list class="p-1" [gifs]="gifsByKey()"/>
+</section>

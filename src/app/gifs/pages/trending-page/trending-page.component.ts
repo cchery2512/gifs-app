@@ -19,7 +19,7 @@ import { GifsService } from '../../services/gifs.service';
 
 @Component({
   selector: 'app-trending-page',
-  imports: [GifsListComponent],
+  //imports: [GifsListComponent],
   templateUrl: './trending-page.component.html',
 })
 export default class TrendingPageComponent {
